@@ -45,7 +45,7 @@ public class EnemyScript : MonoBehaviour
                 canMove = false;
                 animator.Play("Dead");
                 Destroy(GetComponent<CapsuleCollider>());
-                Destroy(gameObject, 3f);
+                Destroy(gameObject, 2f);
             }
         }
     }
