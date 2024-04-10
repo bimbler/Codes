@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
     public bool GameStart = false;
 
     public List<GameObject> spawners;
